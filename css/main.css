@@ -1,14 +1,29 @@
-.hero {
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: #087ac7;
+}
+
+h1 {
+    text-align: center;
+    color: blue;
+}
+
+script {
+    width: 200px;
+    flex: 0 0 auto;
+}
+
+.container {
     display:flex;
     justify-content: space-around;
     margin-top: 20px;
-}
-
-.container: {
-    align: center;
-    max-width: 70%;
-    display: flex;
-    justify-content: center;
 }
 
 footer {
@@ -37,12 +52,4 @@ footer {
 .hr {
     color: red;
     background-color: red;
-}
-
-.imgtext {
-    display: flex;
-}
-
-h1 {
-    color: blue;
 }
