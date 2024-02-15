@@ -33,7 +33,7 @@ script {
     align-items: center;
 }
 
-.comments script {
+.comments iframe {
     width: 80%;
 }
 
