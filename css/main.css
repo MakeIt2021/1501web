@@ -27,9 +27,14 @@ script {
 }
 
 .comments {
+    margin-top: 20%;
     display: flex;
     justify-content: center;
-    width: 70%;
+    align-items: center;
+}
+
+.comments script {
+    width: 80%;
 }
 
 footer {
