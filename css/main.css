@@ -26,6 +26,12 @@ script {
     margin-top: 20px;
 }
 
+.comments {
+    display: flex;
+    justify-content: center;
+    width: 70%;
+}
+
 footer {
     position: absolute;
     left: 0;
